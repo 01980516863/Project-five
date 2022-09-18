@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link part start -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- css link part start -->
+    <title>Project-5</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+    <!-- menu part start -->
+    <nav class="navbar navbar-expand-lg  menu-bg" id="navbar-scroll">
+        <div class="container">
+            <a class="navbar-brand" href="#banner">
+                <img src="images/logo.png" alt="logo" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars nav-open"></i>
+                <i class="fa-solid fa-xmark nav-close"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stream">Tornament</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#all-games">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tean">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#question">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-rigth">
+                <div class="na-icon1">
+                    <!-- <i class="fa-solid fa-globe"></i> -->
+                    <button type="button" class="regi-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-globe"></i>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="ragi-main">
+                                            <div class="ragi-left">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" required
+                                                        placeholder="First Name">
+                                                </div>
+                                            </div>
+                                            <div class="ragi-rigth">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" required
+                                                        placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" required placeholder="Enter email">
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="password" class="form-control" required placeholder="Password">
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="password" class="form-control" required
+                                                placeholder="Re-type Password">
+                                        </div>
+                                        <div class="gander mb-4">
+                                            <input type="checkbox" name="gander"> Male
+                                            <input type="checkbox" name="gander" class="cheak2"> Female
+                                        </div>
+                                        <div class="mb-4 form-control">
+                                            <select name="country">
+                                                <option value="country">Select Country</option>
+                                                <option value="country">Bangladesh</option>
+                                                <option value="country">Canda</option>
+                                                <option value="country">Usa</option>
+                                                <option value="country">India</option>
+                                            </select>
+                                        </div>
+                                        <div class="condi mb-5">
+                                            <input type="checkbox" name="gander" required> I agree with terms and
+                                            conditions
+                                        </div>
+                                        <div class="submit-btn mb-4">
+                                            <button type="submit"> Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sign-in">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="sign-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class="fa-solid fa-right-to-bracket"></i> <span>Sign In</span>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Sign In</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="User Name" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="password" class="form-control" placeholder="Password" required>
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" required>
+                                            Keep me Signed in
+                                        </div>
+                                        <div class="sign-in-btn3">
+                                            <button type="submit" class="sign-btn2">Sign In</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass search-open"></i>
+                    <i class="fa-solid fa-xmark search-close"></i>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search here">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- menu part end -->
+
+    <!-- banner part start -->
+    <section id="banner">
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="banner-text">
+                            <h4>LIFE TIME</h4>
+                            <h2> GAMING EXPERIENCE</h2>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae alias voluptas
+                                optio.Veritatis recusandae pariatur qui dignissimos dolore similique ad adipisci eum.
+                                Quos aliquid fugiat magni illum eius?</p>
+                            <div class="banner-btn">
+                                <a href="#">View More <span><i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="banner-icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part end -->
+
+    <!-- about part start -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="about-header">
+                                <h2>ABOUT THE BIGGEST HANCOK COMMUNITY</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="about-img">
+                                <img src="images/about-1.png" alt="about-1" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="about-item">
+                                <h2>MOST POPULAR GAMING PLATFORM.</h2>
+                                <div class="about-main">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>World Bigghest Community & Gaming Server</p>
+                                </div>
+                                <div class="about-main">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>Friendly Clan & Mates</p>
+                                </div>
+                                <div class="about-main">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>We Provide Gaming Accesories</p>
+                                </div>
+                                <div class="about-main">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>Largest Online Gaming Community & Shop</p>
+                                </div>
+                                <div class="about-main">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>Hancok reaches more than 150 million monthly users</p>
+                                </div>
+                                <div class="about-main">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>We are leading global media brand for games</p>
+                                </div>
+                            </div>
+                            <div class="about-info">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex illo sed odio temporibus
+                                    magni quia eveniet odit placeat repellat quod ipsum modi necessitatibus, dolorum
+                                    officia!</p>
+                            </div>
+                            <div class="about-btn">
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-3 col-12 col-sm-6 col-md-6">
+                            <div class="about-counter text-center">
+                                <span class="counter">112</span> <span>K.</span>
+                                <p>Community Earning</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 col-sm-6 col-md-6">
+                            <div class="about-counter text-center">
+                                <span class="counter">112</span> <span>K.</span>
+                                <p>Community Earning</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 col-sm-6 col-md-6">
+                            <div class="about-counter text-center">
+                                <span class="counter">112</span> <span>K.</span>
+                                <p>Community Earning</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 col-sm-6 col-md-6">
+                            <div class="about-counter text-center">
+                                <span class="counter">112</span> <span>K.</span>
+                                <p>Community Earning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about part end -->
+
+    <!-- populer games part start -->
+    <section id="populer">
+        <div class="populer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-9 offset-lg-7">
+                                <div class="popoler-header">
+                                    <h2>POPULAR GAMES AROUND THE WORLD</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="popular-slick">
+                            <i class="fa-solid fa-chevron-right populer-next"></i>
+                            <i class="fa-solid fa-chevron-left populer-prev"></i>
+                            <div class="row populer-main">
+                                <div class="col-lg-6">
+                                    <div class="populer-item">
+                                        <img src="images/populer-1.png" alt="populer-2" class="w-100" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="populer-item">
+                                        <img src="images/populer-2.png" alt="populer-2" class="w-100" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="populer-item">
+                                        <img src="images/populer-3.png" alt="populer-2" class="w-100" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="populer-item">
+                                        <img src="images/populer-4.png" alt="populer-2" class="w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- populer games part end -->
+
+    <!-- live stream part start -->
+    <section id="stream">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row mb-5">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="steam-header">
+                                <h2>LIVE STREAMIN VIDEO BY HANCOK</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="strem-main">
+                                <div class="strem-overlay">
+                                    <a class="story-video" data-autoplay="true" data-maxwidth="90%" data-vbtype="video"
+                                        href="https://youtu.be/dvQLHKKK6i4"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                                <div class="live-stream">
+                                    <div class="info">
+                                        <h2>HORIZON ZERO | DAWN</h2>
+                                        <h5>Guerrilla Games</h5>
+                                    </div>
+                                    <div class="live">
+                                        <p> <span>.</span> LIVE</p>
+                                    </div>
+                                </div>
+                                <img src="images/live-1.png" alt="live-1" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="strem-main">
+                                <div class="strem-overlay">
+                                    <a class="story-video" data-autoplay="true" data-maxwidth="90%" data-vbtype="video"
+                                        href="https://youtu.be/6XqMvX3hAzU"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                                <div class="live-stream">
+                                    <div class="info">
+                                        <h2>HORIZON ZERO | DAWN</h2>
+                                        <h5>Guerrilla Games</h5>
+                                    </div>
+                                    <div class="live">
+                                        <p> <span>.</span> LIVE</p>
+                                    </div>
+                                </div>
+                                <img src="images/live-2.png" alt="live-2" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="strem-main">
+                                <div class="strem-overlay">
+                                    <a class="story-video" data-autoplay="true" data-maxwidth="90%" data-vbtype="video"
+                                        href="https://youtu.be/dw0eTbI5avM"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                                <div class="live-stream">
+                                    <div class="info">
+                                        <h2>HORIZON ZERO | DAWN</h2>
+                                        <h5>Guerrilla Games</h5>
+                                    </div>
+                                    <div class="live">
+                                        <p> <span>.</span> LIVE</p>
+                                    </div>
+                                </div>
+                                <img src="images/live-3.png" alt="live-3" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-4">
+                    <div class="stream-bottm-header text-center">
+                        <h2> PREVIOUS MATCHES</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="stream-bottom-1">
+                                <img src="images/stream-logo-1.png" alt="logo" class="stream-logo" />
+                                <h4>Team DalTa</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <div class="stream-time text-center">
+                                <h4>9:12</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="stream-bottom-2">
+                                <img src="images/stream-logo-2.png" alt="logo" class="stream-logo" />
+                                <h4>Team Alpha</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="stream-bottom-1">
+                                <img src="images/stream-logo-3.png" alt="logo" class="stream-logo" />
+                                <h4>Team Ninja</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <div class="stream-time text-center">
+                                <h4>1:25</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="stream-bottom-2">
+                                <img src="images/stream-logo-4.png" alt="logo" class="stream-logo" />
+                                <h4>Team Davil</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- live stream part end -->
+
+    <!-- top games part start -->
+    <section id="top-games">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-7 offset-lg-7">
+                            <div class="top-games-header">
+                                <h2>TOP GAMES ON BLACK FRIDAY SALE</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="games-main">
+                                <img src="images/top-games-1.png" alt="top-games-1" class="w-100" />
+                                <div class="games-info">
+                                    <h3>Horizon Zero Dawn<sup>TM</sup> Complet...</h3>
+                                    <p>Guerrilla Games</p>
+                                </div>
+                                <div class="price">
+                                    <p>-40%</p>
+                                    <del>$19.99</del>
+                                    <h6>$7.99 </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="games-main">
+                                <img src="images/top-games-2.png" alt="top-games-2" class="w-100" />
+                                <div class="games-info">
+                                    <h3>Disciples: Liberation</h3>
+                                    <p>Frima Studio</p>
+                                </div>
+                                <div class="price">
+                                    <p>-40%</p>
+                                    <del>$19.99</del>
+                                    <h6>$7.99 </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="games-main">
+                                <img src="images/top-games-3.png" alt="top-games-3" class="w-100" />
+                                <div class="games-info">
+                                    <h3>Horizon Zero Dawn<sup>TM</sup> Complet...</h3>
+                                    <p>Guerrilla Games</p>
+                                </div>
+                                <div class="price">
+                                    <p>-40%</p>
+                                    <del>$19.99</del>
+                                    <h6>$7.99 </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="games-main">
+                                <img src="images/top-games-4.png" alt="top-games-4" class="w-100" />
+                                <div class="games-info">
+                                    <h3>Industries of Titan</h3>
+                                    <p>Brace Yourself Games</p>
+                                </div>
+                                <div class="price">
+                                    <p>-40%</p>
+                                    <del>$19.99</del>
+                                    <h6>$7.99 </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-5">
+                            <div class="games-bottom-header">
+                                <h2>Hancok Games Catalog</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-4 games-bottom">
+                        <div class="col-lg-7 col-md-7">
+                            <div class="games-left">
+                                <h6>Choose Your Favourite Game</h6>
+                                <h2>Explore hancok catalog for your next favorite game!</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus culpa ratione enim
+                                    maiores nisi cupiditate non nesciunt officia labore aut? Et, vero!</p>
+                                <a href="#">Browse All</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="games-rigth">
+                                <img src="images/top-games-10.png" alt="top-games-10" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top games part end -->
+
+    <!-- all games part start -->
+    <section id="all-games">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-7">
+                            <div class="all-games-header">
+                                <h2>WE PROVIDE ALL GAMING ACCESORIES</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="all-games-main">
+                        <i class="fa-solid fa-chevron-right all-games-next"></i>
+                        <i class="fa-solid fa-chevron-left all-games-prev"></i>
+                        <div class="row mt-5  all-games-slick">
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-1.png" alt="all-games-1" />
+                                    <h4>Gaming Controller</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-2.png" alt="all-games-2" />
+                                    <h4>Gaming Keyboard</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-3.png" alt="all-games-3" />
+                                    <h4>Gaming Monitor</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-4.png" alt="all-games-4" />
+                                    <h4>Gaming Controller</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-2.png" alt="all-games-2" />
+                                    <h4>Gaming Keyboard</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-3.png" alt="all-games-3" />
+                                    <h4>Gaming Monitor</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="all-items text-center">
+                                    <p>$95</p>
+                                    <img src="images/all-games-4.png" alt="all-games-4" />
+                                    <h4>Gaming Controller</h4>
+                                    <h5>Add To Cart</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- all games part end -->
+
+    <!-- team part start -->
+    <section id="tean">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6 col-md-8">
+                            <div class="team-header">
+                                <h2>MEET OUR PROFESSIONAL ELITE TEAM</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="team-main">
+                                <img src="images/team-1.png" alt="team-1" class="w-100" />
+                                <div class="team-overlay">
+                                    <div class="team-info">
+                                        <h4>Paladins</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper</p>
+                                        <a href="#">Know more</a>
+                                    </div>
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-invision"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-item">
+                                    <h3>Cs:Go</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="team-main">
+                                <img src="images/team-2.png" alt="team-2" class="w-100" />
+                                <div class="team-overlay">
+                                    <div class="team-info">
+                                        <h4>Paladins</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper</p>
+                                        <a href="#">Know more</a>
+                                    </div>
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-invision"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-item">
+                                    <h3>Dota:2</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="team-main">
+                                <img src="images/team-3.png" alt="team-3" class="w-100" />
+                                <div class="team-overlay">
+                                    <div class="team-info">
+                                        <h4>Paladins</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper</p>
+                                        <a href="#">Know more</a>
+                                    </div>
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-invision"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-item">
+                                    <h3>Dota:2</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="team-main">
+                                <img src="images/team-4.png" alt="team-4" class="w-100" />
+                                <div class="team-overlay">
+                                    <div class="team-info">
+                                        <h4>Paladins</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper</p>
+                                        <a href="#">Know more</a>
+                                    </div>
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-invision"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-item">
+                                    <h3>Volarant</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team part end -->
+
+    <!-- faq qustion part start -->
+    <section id="question">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="question-header">
+                                <h2>FREQUENTLY ASKED QUESTION <q>QUESTION & ANSWER</q></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="question-item">
+                                <div class="question-left">
+                                    <h2>1</h2>
+                                </div>
+                                <div class="question-right quextion-after">
+                                    <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                        sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                        autem fugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 offset-lg-2">
+                            <div class="question-item">
+                                <div class="question-left">
+                                    <h2>2</h2>
+                                </div>
+                                <div class="question-right">
+                                    <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                        sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                        autem fugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="question-item">
+                                <div class="question-left">
+                                    <h2>1</h2>
+                                </div>
+                                <div class="question-right quextion-after-2">
+                                    <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                        sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                        autem fugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 offset-lg-2">
+                            <div class="question-item">
+                                <div class="question-left">
+                                    <h2>2</h2>
+                                </div>
+                                <div class="question-right">
+                                    <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                        sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                        autem fugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq qustion part end -->
+
+    <!-- footer part start -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-header">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="contact-header-head">
+                                    <h2>subscribe us to get latest news in your inbox
+                                        from hancok community</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="contact-bar">
+                                    <input type="email" required placeholder="Enter your Mail">
+                                    <button type="submit">subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-sm-6 col-12">
+                            <div class="footer-left">
+                                <img src="images/logo.png" alt="logo" class="logo" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero
+                                    officiis rem consectetur sunt cupiditate eius obcaecati, culpa,
+                                    aspernatur aperiam id.</p>
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#"><i class="fa-brands fa-invision"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6 col-sm-3">
+                            <div class="footer-middle">
+                                <h2>LINKS</h2>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Tournament</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6 col-sm-3">
+                            <div class="footer-middle">
+                                <h2>TEAMS</h2>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Tournament</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="footer-right">
+                                <h2>GALLERY</h2>
+                                <div class="row">
+                                    <div class="col-lg-4 col-4">
+                                        <a href="#"><img src="images/footer-1.png" alt="footer-1" class="w-100" /></a>
+                                    </div>
+                                    <div class="col-lg-4 col-4">
+                                        <a href="#"><img src="images/footer-2.png" alt="footer-2" class="w-100" /></a>
+                                    </div>
+                                    <div class="col-lg-4 col-4">
+                                        <a href="#"><img src="images/footeer-3.png" alt="footer-3" class="w-100" /></a>
+                                    </div>
+                                    <div class="col-lg-4 mt-4 col-4">
+                                        <a href="#"><img src="images/footer-4.png" alt="footer-4" class="w-100" /></a>
+                                    </div>
+                                    <div class="col-lg-4 mt-4 col-4">
+                                        <a href="#"><img src="images/footer-5.png" alt="footer-5" class="w-100" /></a>
+                                    </div>
+                                    <div class="col-lg-4 mt-4 col-4">
+                                        <a href="#"><img src="images/footer-6.png" alt="footer-6" class="w-100" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </footer>
+
+    <!-- footer part end -->
+
+    <!-- copy rigth section part start -->
+    <section id="copy">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copy text-center">
+                        <h2>© 2021 All rights reserved by <span>Kabir</span>.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- copy rigth section part end -->
+
+    <!-- footer part end -->
+    <!-- scroll icon start -->
+    <div class="scroll-icon">
+        <i class="fa-sharp fa-solid fa-angle-up"></i>
+    </div>
+    <!-- scroll icon end -->
+
+
+
+
+
+
+
+
+
+    <!-- js link part start -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- js link part end -->
+</body>
+
+</html>

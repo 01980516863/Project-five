@@ -1,0 +1,719 @@
+@media(min-width:1200px) and (max-width:1398.98px){
+
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    /* menu part responsive start */
+    .menu-bg ul {
+        margin-left: 10px;
+    }
+    .menu-bg ul li{
+        margin-left: 15px;
+    }
+    .menu-bg ul li a {
+        font-size: 15px;
+    }
+    .na-icon1 i{
+        margin-right: 10px;
+    }
+    /* menu part responsive end */
+    /* banner part responsive start */
+    .banner-text{
+        margin-top: 40px;
+    }
+    .banner-text h2::after {
+        bottom: 13px;
+        right: -83px;
+    }
+    .banner-icon{
+        margin-top: 50px;
+    }
+    /* banner part responsive end */
+
+    /* about part responsive start */
+    .about-header h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .about-header h2::after {
+        right: 178px;
+    }
+    /* about part responsive end */
+    /* populear part respomsive start */
+    .popoler-header h2 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .popoler-header h2::after {
+        right: 308px;
+        bottom: 9px;
+    }
+    /* populear part respomsive end */
+    /* top games part responsive start */
+    .top-games-header h2 {
+        font-size: 33px;
+    }
+    .top-games-header h2::after {
+        bottom: 10px;
+        right: 201px;
+    }
+    .games-info h3 {
+        font-size: 13px;
+    }
+    .games-info p {
+        font-size: 12px;
+    }
+    .games-bottom-header h2 {
+        font-size: 31px;
+    }
+    /* top games part responsive end */
+    /* all games part responsive start */
+    .all-games-header h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .all-games-header h2::after {
+        bottom: 10px;
+        right: 90px;
+    }
+    /* all games part responsive end */
+    /* team part responsive start */
+    .team-header{
+        margin-bottom: 20px;
+    }
+    .team-header h2 {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .team-header h2::after {
+        right: 172px;
+        bottom: 10px;
+    }
+    .team-icon {
+        margin-top: 110px;
+    }
+    /* team part responsive end */
+    /* faq question part start */
+    .question-header h2 {
+        font-size: 30px;
+    }
+    .question-header h2::after {
+        bottom: 11px;
+        right: 26px;
+    }
+    .question-right h4 {
+        font-size: 18px;
+    }
+    /* faq question part end */
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    /* menu part responsive start */
+    .menu-bg ul {
+        margin-left: 0px;
+    }
+    .menu-bg {
+        padding: 20px 0;
+    }
+    .navbar-toggler i{
+        margin-top: 10px;
+    }
+    .nav-rigth{
+        position: fixed;
+        right: 200px;
+        top: 39px;
+    }
+    .na-icon1 i {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .sign-in span, .sign-in i {
+        font-size: 16px;
+    }
+    .search i {
+        font-size: 16px;
+    }
+    .sign-in{
+        margin-right: 20px;
+    }
+    .search-bar{
+        width: 350px;
+    }
+    /* menu part responsive end */
+    /* banner part responsive start */
+    .banner-text{
+        margin-top: 40px;
+    }
+    .banner-text h2::after {
+        bottom: 14px;
+        right: 235px;
+    }
+    .banner-icon{
+        margin-top: 40px;
+    }
+    /* banner part responsive end */
+    /* about part responsive start */
+    .about-header h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-header h2::after {
+        bottom: 8px;
+        right: 175px;
+    }
+    .about-item h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about-main p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .about-info p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .about-img img {
+        height: 410px;
+    }
+    .about-counter{
+        margin-bottom: 20px;
+    }
+    /* about part responsive end */
+    /* populer games part responsive start */
+    .popoler-header{
+        text-align: start;
+    }
+    .popoler-header h2::after {
+        right: 300px;
+        bottom: 10px;
+    }
+    .populer-item img {
+        height: 350px;
+        clip-path: polygon(21% 0, 95% 0, 78% 100%, 6% 100%);
+    }
+    /* populer games part responsive end */
+    /* live stream part responsive start */
+    .steam-header h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .steam-header h2::after {
+        left: 180px;
+        bottom: 8px;
+    }
+    .strem-main{
+        margin-bottom: 25px;
+    }
+    .stream-bottom-1 h4 {
+        font-size: 19px;
+        margin-left: 20px;
+    }
+    .stream-bottom-2 .stream-logo {
+        margin-right: 17px;
+    }
+    .stream-bottom-2 h4 {
+        font-size: 19px;
+    }
+    /* live stream part responsive end */
+    /* top games part responsive start */
+    .top-games-header{
+        text-align: start;
+    }
+    .top-games-header h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .top-games-header h2::after {
+        right: 113px;
+    }
+    .games-main{
+        margin-bottom: 30px;
+    }
+    .games-bottom-header{
+        margin-top: -40px;
+    }
+    .games-bottom{
+        padding: 40px 20px;
+        background: #212121;
+    }
+    .games-left{
+        margin-top: 0;
+    }
+    .games-left h2 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .games-rigth{
+        margin-top: 30px;
+    }
+    /* top games part responsive end */
+    /* all games part responsive start */
+    .all-games-header h2 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .all-games-header h2::after {
+        right: 110px;
+    }
+    /* all games part responsive end */
+    /* team part responsive start */
+    .team-header{
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .team-header h2 {
+        font-size: 31px;
+        line-height: 43px;
+    }
+    .team-header h2::after {
+        right: 190px;
+        bottom: 9px;
+    }
+    .team-info p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .team-icon i {
+        margin: 0 0px;
+    }
+    .team-icon {
+        margin-top: 118px;
+    }
+    /* team part responsive end */
+    /* faq question part responsive start */
+    .question-header h2 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .question-header h2::after {
+        bottom: 12px;
+        right: 219px;
+    }
+    .question-right h4 {
+        font-size: 18px;
+    }
+    .question-right p {
+        font-size: 13px;
+    }
+    /* faq question part responsive en */
+
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+    /* menu part responsive start */
+    .menu-bg ul {
+        margin-left: 0px;
+    }
+    .menu-bg {
+        padding: 15px 0;
+    }
+    .navbar-toggler i{
+        margin-top: 10px;
+    }
+    .modal-btn1 span{
+        display: none;
+    }
+    .nav-rigth{
+        position: fixed;
+        right: 180px;
+        top: 34px;
+    }
+    .na-icon1 i {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .sign-in span, .sign-in i {
+        font-size: 15px;
+    }
+    .search i {
+        font-size: 15px;
+    }
+    .sign-in{
+        margin-right: 20px;
+    }
+    .search-bar{
+        width: 350px;
+    }
+    /* menu part responsive end */
+    /* banner part responsive start */
+    .banner-text{
+        margin-top: 40px;
+    }
+    .banner-text h2::after {
+        bottom: 13px;
+        right: 55px;
+    }
+    .banner-icon{
+        margin-top: 40px;
+    }
+    /* banner part responsive end */
+    /* about part responsive start */
+    .about-header h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .about-item{
+        margin-top: 40px;
+    }
+    .about-counter{
+        margin-bottom: 20px;
+    }
+    /* about part responsive end */
+    /* populer games part responsive start */
+    .popoler-header{
+        text-align: start;
+    }
+    .popoler-header h2 {
+        font-size: 27px;
+        line-height: 39px;
+    }
+    .popoler-header h2::after {
+        right: -24px;
+    }
+    /* populer games part responsive end */
+    /* live stream part responsive start */
+    .strem-main{
+        margin-bottom: 20px;
+    }
+    .stream-time h4 {
+        margin-top: 15px;
+    }
+    .stream-bottom-2{
+        margin-top: 15px;
+    }
+    /* live stream part responsive end */
+    /* top games part responsive start */
+    .top-games-header{
+        text-align: start;
+    }
+    .top-games-header h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .top-games-header h2::after {
+        right: 39px;
+    }
+    .games-info h3 {
+        font-size: 15px;
+    }
+    .games-main{
+        margin-bottom: 30px;
+    }
+    .games-bottom-header{
+        margin-top: -40px;
+    }
+    .games-bottom{
+        padding: 30px 10px;
+        background: #212121;
+    }
+    .games-rigth{
+        margin-top: 50px;
+    }
+    /* top games part responsive end */
+    /* all games part responsive start */
+    .all-games-header h2 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .all-games-header h2::after {
+        right: 228px;
+    }
+    /* all games part responsive end */
+    /* team part responsive start */
+    .team-header h2 {
+        font-size: 30px;
+    }
+    .team-header h2::after {
+        right: 80px;
+        bottom: 10px;
+    }
+    /* team part responsive end */
+    /* faq question part responsive start */
+    .question-header h2 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .question-header h2::after {
+        right: 107px;
+    }
+    .question-item{
+        margin-bottom: 30px;
+    }
+    /* faq question part responsive end */
+
+    /* contact part responsive start */
+    .footer-icon {
+        margin-top: 50px;
+    }
+    /* contact part responsive end */
+  
+}
+
+@media (max-width:767.98px){
+
+}
+
+@media (max-width:575.98px){
+    /* menu part responsive start */
+    .menu-bg ul {
+        margin-left: 0px;
+    }
+    .logo {
+        width: 90px;
+    }
+    .sign-in span{
+        display: none !important;
+    }
+    .menu-bg {
+        padding: 10px 0;
+    }
+    .navbar-toggler i{
+        margin-top: 8px;
+    }
+    .modal-btn1 span{
+        display: none;
+    }
+    .nav-rigth{
+        position: fixed;
+        right: 60px;
+        top: 22px;
+    }
+    .na-icon1 i {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .sign-in span, .sign-in i {
+        font-size: 15px;
+    }
+    .search i {
+        font-size: 15px;
+    }
+    .sign-in{
+        margin-right: 15px;
+    }
+    .search-bar{
+        width: 245px;
+    }
+    /* menu part responsive end */
+
+    /* banner part responsive start */
+    .banner-text{
+        margin-top: 0px;
+    }
+    .banner-text h4 {
+        font-size: 20px;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-text h2::after{
+        display: none;
+    }
+    .banner-text p {
+        font-size: 14px;
+    }
+    .banner-btn a{
+        margin-top: 20px;
+    }
+    .banner-icon{
+        margin-top: 30px;
+    }
+    /* banner part responsive end */
+    /* about part responsive start */
+    .about-header h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .about-header h2::after {
+        display: none;
+    }
+    .about-item{
+        margin-top: 40px;
+    }
+    .about-counter{
+        margin-bottom: 20px;
+    }
+    /* about part responsive end */
+    /* popular games part responsive start */
+    .popoler-header h2::after{
+        display: none;
+    }
+    .popoler-header{
+        text-align: start;
+    }
+    .popoler-header h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .populer-item img {
+        height: 300px;
+        clip-path: polygon(21% 0, 93% 0, 81% 100%, 10% 100%);
+    }
+    .populer-next{
+        display: none !important;
+    }
+    .populer-prev{
+        display: none !important;
+    }
+    /* popular games part responsive end */
+    /* live stream parts responsive start */
+    .steam-header h2 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .steam-header h2::after {
+        display: none;
+    }
+    .strem-main{
+        margin-bottom: 20px;
+    }
+    .stream-bottom-1 h4 {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .stream-bottom-2{
+        margin-top: 15px;
+    }
+    .stream-bottom-2 .stream-logo {
+        margin-right: 30px;
+    }
+    .stream-time{
+        margin-top: 10px;
+    }
+    .stream-time h4 {
+        margin-top: 15px;
+    }
+    /* live stream parts responsive end */
+    /* top games part responsive start */
+    .top-games-header{
+        text-align: start;
+    }
+    .top-games-header h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .top-games-header h2::after{
+        display: none;
+    }
+    .games-main{
+        margin-bottom: 20px;
+    }
+    .games-bottom-header h2 {
+        font-size: 22px;
+    }
+    .games-bottom{
+        padding: 20px 10px;
+        background: #212121;
+    }
+    .games-left h6 {
+        font-size: 18px;
+    }
+    .games-left h2 {
+        font-size: 19px;
+        line-height: 32px;
+    }
+    .games-left p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    .games-rigth{
+        margin-top: 30px;
+    }
+    /* top games part responsive end */
+    /* all games part responsive start */
+    .all-games-header {
+        margin-top: -30px;
+    }
+    .all-games-header h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .all-games-header h2::after{
+        display: none;
+    }
+    .all-games-next{
+        display: none !important;
+    }
+    .all-games-prev{
+        display: none !important;
+    }
+    /* all games part responsive end */
+    /* team part responsive start */
+    #tean{
+        padding: 30px 0 20px 0;
+    }
+    .team-main {
+        height: 320px;
+    }
+    .team-header{
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .team-header h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .team-header h2::after{
+        display: none;
+    }
+    .team-item h3 {
+        font-size: 20px;
+    }
+    .team-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .team-icon {
+        margin-top: 102px;
+    }
+    .team-icon i {
+        font-size: 14px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        margin: 0 1px;
+    }
+    /* team part responsive end */
+    /* faq question part responsive start */
+    .question-header h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .question-header h2::after{
+        display: none;
+    }
+    .question-right h4 {
+        font-size: 19px;
+    }
+    .question-right p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .question-item{
+        margin-bottom: 20px;
+    }
+    /* faq question part responsive end */
+
+    /* contact part responsive start */
+    .contact-header-head h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .footer-left p {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    .footer-icon {
+        margin: 35px 0 20px 0;
+    }
+    .footer-middle ul li {
+        margin-bottom: 25px;
+    }
+    /* contact part responsive end */
+    .scroll-icon i {
+        right: 20px;
+    }
+}
+
